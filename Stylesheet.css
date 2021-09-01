@@ -1,0 +1,441 @@
+/* Set height to 100 percentage for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%;
+    background-color: #ffffff; /* The color #0e8c4f might be a good choice */
+}
+
+.bgimg {
+    /* Background Image */
+    background-image: url('file:///C:/Users/Eude/OneDrive/Documents/Buntle%20Learning/IMG/Banner2.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -80px;
+}
+/*Make the section for the photo and some text a table so that it sits along side each other on the webpage */
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 22%;
+    text-align: center;
+}
+
+.middle h1 {
+    font-size: 20px;
+}
+.middle p {
+    font-size: 16px;
+}
+
+.middle hr {
+    width: 400px;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+}
+/* Social Media links situated here */
+/* Style all font awesome icons */
+.socials {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 22%;
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+}
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: black;
+    border-color: black;
+  }
+  
+  /* linkedin */
+  .fa-linkedin {
+    color: black;
+    border-color: black;
+  }
+
+@media (max-width: 320px) {
+      body {
+        background-color: black;
+      }
+    .bgimg {
+        /* Background Image */
+        background-image: url('file:///C:/Users/Eude/OneDrive/Documents/Buntle%20Learning/IMG/Mobile-Banner-320.jpg');
+        background-position: center;
+        position: relative;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        width: 320px;
+    }
+    
+    /* Position text in the middle */
+    .middle {
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    
+    .heading {
+        margin-top: 520%;
+        margin-left: -105%;
+        background-color: gray;
+        padding: 30px;
+        opacity: 0.9;
+    }
+    .heading h1 {
+        font-size: 16px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .paragraphs {
+        margin-top: 1150%;
+        margin-left: -105%;
+        background-color: white;
+    }
+    .paragraphs p {
+        font-size: 14px;
+        text-align: center;
+        color: black;
+    }
+    
+    /* Style the <hr> element */
+    .middle hr {
+        width: 0px;
+        display: none;
+    }
+    
+    /* Social Media links situated here */
+    /* Style all font awesome icons */
+    .socials {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        margin-left: -5%;
+        text-align: center;
+        margin-top: 208%;
+        padding-bottom: 10%;
+    }
+    .fa {
+        padding: 5px;
+        font-size: 10px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5%;
+    }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        color: black;
+        border-color: black;
+      }
+      
+      /* linkedin */
+      .fa-linkedin {
+        color: black;
+        border-color: black;
+      }
+
+       /* Email */
+       .fa-envelope {
+        color: black;
+        border-color: black;
+      }
+
+    
+    
+}
+@media (max-width: 375px) {
+    body {
+      background-color: black;
+    }
+  .bgimg {
+      /* Background Image */
+      background-image: url('file:///C:/Users/Eude/OneDrive/Documents/Buntle%20Learning/IMG/Buntle%20Logo1.png');
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+      position: absolute;
+      transform: translate(-50%, -50%);
+  }
+  
+  .heading {
+      margin-top: 520%;
+      margin-left: -130%;
+      background-color: gray;
+      padding: 30px;
+      opacity: 0.9;
+  }
+  .heading h1 {
+      font-size: 16px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+  }
+  .paragraphs {
+      margin-top: 250%;
+      margin-left: -130%;
+      background-color: white;
+  }
+  .paragraphs p {
+      font-size: 14px;
+      text-align: center;
+      color: black;
+  }
+  
+  /* Style the <hr> element */
+  .middle hr {
+      width: 0px;
+      display: none;
+  }
+  
+  /* Social Media links situated here */
+  /* Style all font awesome icons */
+  .socials {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      margin-left: -2%;
+      text-align: center;
+      margin-top: 178%;
+      padding-bottom: 10%;
+  }
+  .fa {
+      padding: 5px;
+      font-size: 10px;
+      width: 15px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5%;
+  }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      color: black;
+      border-color: black;
+    }
+    
+    /* linkedin */
+    .fa-linkedin {
+      color: black;
+      border-color: black;
+    }
+
+     /* Email */
+     .fa-envelope {
+      color: black;
+      border-color: black;
+    }
+
+  
+  
+}
+@media (max-width: 425px) {
+    body {
+      background-color: black;
+    }
+  .bgimg {
+      /* Background Image */
+      background-image: url('file:///C:/Users/Eude/OneDrive/Documents/Buntle%20Learning/IMG/Buntle%20Logo1.png');
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+      position: absolute;
+      transform: translate(-50%, -50%);
+  }
+  
+  .heading {
+      margin-top: 520%;
+      margin-left: -150%;
+      background-color: gray;
+      padding: 30px;
+      opacity: 0.9;
+  }
+  .heading h1 {
+      font-size: 16px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+  }
+  .paragraphs {
+      margin-top: 245%;
+      margin-left: -150%;
+      background-color: white;
+  }
+  .paragraphs p {
+      font-size: 14px;
+      text-align: center;
+      color: black;
+  }
+  
+  /* Style the <hr> element */
+  .middle hr {
+      width: 0px;
+      display: none;
+  }
+  
+  /* Social Media links situated here */
+  /* Style all font awesome icons */
+  .socials {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      margin-left: -1%;
+      text-align: center;
+      margin-top: 148%;
+      padding-bottom: 10%;
+  }
+  .fa {
+      padding: 5px;
+      font-size: 10px;
+      width: 15px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5%;
+  }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      color: black;
+      border-color: black;
+    }
+    
+    /* linkedin */
+    .fa-linkedin {
+      color: black;
+      border-color: black;
+    }
+
+     /* Email */
+     .fa-envelope {
+      color: black;
+      border-color: black;
+    }
+
+  
+  
+}
+@media (max-width: 768px) {
+    body {
+      background-color: black;
+    }
+  .bgimg {
+      /* Background Image */
+      background-image: url('file:///C:/Users/Eude/OneDrive/Documents/Buntle%20Learning/IMG/Buntle%20Logo1.png');
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+      margin-right: -50%;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+      position: absolute;
+      transform: translate(-50%, -50%);
+  }
+  
+  .heading {
+      margin-top: 270%;
+      margin-left: -250%;
+      padding: 30px;
+  }
+  .heading h1 {
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+  }
+  .paragraphs {
+      margin-top: -15%;
+      margin-left: -180%;
+      padding-right: 90%;
+      padding-left: 20%;
+  }
+  .paragraphs p {
+      font-size: 16px;
+      text-align: center;
+      color: black;
+  }
+  
+  /* Style the <hr> element */
+  .middle hr {
+      width: 0px;
+  }
+  
+  /* Social Media links situated here */
+  /* Style all font awesome icons */
+  .socials {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      margin-left: -13%;
+      text-align: center;
+      margin-top: 46%;
+      padding-bottom: 2%;
+  }
+  .fa {
+      padding: 5px;
+      font-size: 10px;
+      width: 15px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5%;
+  }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      color: black;
+      border-color: black;
+    }
+    
+    /* linkedin */
+    .fa-linkedin {
+      color: black;
+      border-color: black;
+    }
+
+     /* Email */
+     .fa-envelope {
+      color: black;
+      border-color: black;
+    }
+}
